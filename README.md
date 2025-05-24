@@ -21,3 +21,22 @@ We:
 ## 📂 Project Structure
 
 # alx-frontend-javascript
+## Task 1: Teacher Interface
+
+This task defines a TypeScript interface `Teacher` with required, optional, and flexible properties.
+
+### Features:
+- `firstName` and `lastName` are read-only.
+- `fullTimeEmployee` and `location` are required.
+- `yearsOfExperience` is optional.
+- Additional dynamic properties like `contract` are allowed.
+
+### Example:
+```ts
+const teacher3: Teacher = {
+  firstName: 'John',
+  fullTimeEmployee: false,
+  lastName: 'Doe',
+  location: 'London',
+  contract: false,
+};
