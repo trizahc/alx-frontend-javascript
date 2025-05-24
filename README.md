@@ -119,6 +119,14 @@ This task demonstrates how to use ambient declarations (`.d.ts`) to describe the
 ```bash
 npm install
 npm run build
+# Task 4 - Namespace & Declaration Merging
+
+This project demonstrates how to use **namespaces** and **declaration merging** in TypeScript to organize code and extend interfaces across multiple files.
+
+---
+
+## Project Structure
+
 
 
 
