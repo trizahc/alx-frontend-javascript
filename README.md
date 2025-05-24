@@ -40,3 +40,12 @@ const teacher3: Teacher = {
   location: 'London',
   contract: false,
 };
+## Task 3: Printing Teachers
+
+- Created a function `printTeacher(firstName, lastName)` to return "F. LastName".
+- Defined an interface `printTeacherFunction` for the function type.
+
+### Example:
+```ts
+printTeacher("John", "Doe") // Output: "J. Doe"
+
