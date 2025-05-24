@@ -48,4 +48,18 @@ const teacher3: Teacher = {
 ### Example:
 ```ts
 printTeacher("John", "Doe") // Output: "J. Doe"
+## Task 4: StudentClass
+
+- Defined interfaces for the constructor and the class structure.
+- Created `StudentClass` with:
+  - Method `displayName()` → returns the first name.
+  - Method `workOnHomework()` → returns `"Currently working"`.
+
+### Example:
+
+```ts
+const student = new StudentClass('Jane', 'Doe');
+student.displayName(); // "Jane"
+student.workOnHomework(); // "Currently working"
+
 
