@@ -75,6 +75,35 @@ student.workOnHomework(); // "Currently working"
 createEmployee(200);     // Teacher
 createEmployee(1000);    // Director
 createEmployee('$500');  // Director
+# Task 2 - Advanced Types in TypeScript
+
+## Description
+
+This task demonstrates the use of advanced TypeScript features including:
+
+- Interfaces with method definitions
+- Class implementation from interfaces
+- Type predicates
+- Conditional logic based on types
+- Function overloading based on class type
+
+## Features
+
+- `DirectorInterface` and `TeacherInterface` define behaviors for both roles.
+- `Director` and `Teacher` classes implement their respective interfaces.
+- `createEmployee` function dynamically returns either a `Teacher` or `Director` based on the salary input.
+- `isDirector` function is a type predicate that identifies if an employee is a `Director`.
+- `executeWork` function calls role-specific methods depending on employee type.
+
+## Usage
+
+```ts
+console.log(createEmployee(200));     // Teacher
+console.log(createEmployee(1000));    // Director
+
+console.log(executeWork(createEmployee(200)));   // Getting to work
+console.log(executeWork(createEmployee(1000)));  // Getting to director tasks
+
 
 
 
