@@ -61,5 +61,20 @@ printTeacher("John", "Doe") // Output: "J. Doe"
 const student = new StudentClass('Jane', 'Doe');
 student.displayName(); // "Jane"
 student.workOnHomework(); // "Currently working"
+## Task 5: Advanced Types - Part 1
+
+- Interfaces `DirectorInterface` and `TeacherInterface` define the structure of class methods.
+- Classes `Director` and `Teacher` implement respective interfaces.
+- `createEmployee(salary)` creates an instance of `Teacher` or `Director`:
+  - If salary is a number < 500 → `Teacher`
+  - Otherwise → `Director`
+
+### Example:
+
+```ts
+createEmployee(200);     // Teacher
+createEmployee(1000);    // Director
+createEmployee('$500');  // Director
+
 
 
