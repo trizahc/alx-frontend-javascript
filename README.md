@@ -103,6 +103,22 @@ console.log(createEmployee(1000));    // Director
 
 console.log(executeWork(createEmployee(200)));   // Getting to work
 console.log(executeWork(createEmployee(1000)));  // Getting to director tasks
+# Task 3 - Ambient Namespaces
+
+This task demonstrates how to use ambient declarations (`.d.ts`) to describe the shape of an existing JavaScript module (`crud.js`) for use in a TypeScript project.
+
+## Structure
+
+- `interface.ts`: Defines the `RowID` type and `RowElement` interface.
+- `crud.js`: Provides mock functions to simulate database CRUD operations.
+- `crud.d.ts`: Type declarations for `crud.js` using TypeScript.
+- `main.ts`: Imports the JS functions and uses them with TypeScript types.
+
+## Compilation
+
+```bash
+npm install
+npm run build
 
 
 
